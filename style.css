@@ -1,0 +1,76 @@
+body{
+    background-color:#F6F6F6;
+}
+.sectionservices{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card1{
+ background-color: white;
+ width: 30%;
+ border-radius: 15px;
+ display: flex;
+ justify-content: space-between;
+}
+.mete{
+    margin-left: 20px;
+}
+hr{
+    width: 25%;
+    margin-left: 5px;
+    color: #F6F6F6;
+}
+.card1 h3{
+    font-size: 20px;
+}
+.card1 span{
+    font-size: 20px;
+    color:  #008374 ;
+}
+.card2{
+    background-color: white;
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .Eosle{
+       margin-left: 20px;
+   }
+   hr{
+       width: 25%;
+       margin-left: 5px;
+       color: #F6F6F6;
+   }
+   .card2 h3{
+       font-size: 20px;
+   }
+   .card2 span{
+       font-size: 20px;
+       color:  #008374 ;
+   }
+   .card3{
+    background-color: white;
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .Ledo{
+       margin-left: 20px;
+   }
+   hr{
+       width: 25%;
+       margin-left: 5px;
+       color: #F6F6F6;
+   }
+   .card3 h3{
+       font-size: 20px;
+   }
+   .card3 span{
+       font-size: 20px;
+       color:  #008374 ;
+   }
+   
