@@ -1,0 +1,30 @@
+:root{
+   --color: #008374;
+   --bg: #F6F6F6;
+}
+.Apropos{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5%;
+    /* margin-left: 20%; */
+}
+.part1,.part2{
+    /* border: 1px solid #000; */
+    width: 50%;
+    margin-left: 4%;
+    text-align: justify;
+}
+.part1 img{
+    border-radius: 5%;
+    width: 95%;
+}
+.part2 iframe{
+    border-radius: 5%;
+    width: 100%;
+    height: 70%;
+}
+/* .part1{
+    padding-right: 1%;
+} */
