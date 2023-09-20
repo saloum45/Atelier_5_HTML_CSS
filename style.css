@@ -153,7 +153,7 @@ footer {
     padding-right: 150px;
     background-color: #008374;
     height: 300px;
-    margin-top: 300px;
+    margin-top: 20px;
     color: white;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -222,3 +222,72 @@ footer .copy_right p span{
 }
 
 /* fin section footer  */
+
+
+/* debut section contact  */
+
+.contact{
+    /* background-color: red; */
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+}
+.contact_text{
+    /* background-color: rgb(86, 112, 102); */
+    grid-column: 1/span 2;
+    text-align: center;
+    height: 100px;
+    
+}
+.contact_text h3{
+
+    text-decoration: underline 3px #008374;
+    text-underline-offset: 15px;
+    margin-bottom: 20px;
+    
+}
+.contact_text p{
+    color: #8aa5a2;
+    font-size: 14px;
+    
+}
+.contact_gauche{
+    background-color: #008374;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    color: white;
+    padding: 20Px;
+    border-radius: 15px 0px 0px 15px;
+}
+.contact_gauche .child{
+    background-color: #009282;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.contact_gauche .child .child_icon{
+    width: 10%;
+    padding: 5px;
+}
+.contact_gauche .child .child_icon i{
+    background-color: #41beaf;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.contact_droite{
+    background-color: rgb(81, 34, 176);
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+/* fin section contact  */
+
