@@ -1,0 +1,137 @@
+* {
+    font-family: Verdana;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background-color: #008374;
+    height: 550px;
+}
+
+.menu header nav {
+    display: grid;
+    grid-template-columns: 2;
+    gap: 10px;
+    /* justify-content: center; */
+    padding-top: 20px;
+}
+
+.menu header nav .nav_logo {
+    /* width: ; */
+    /* background-color: blue; */
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 150px;
+    color: white;
+}
+.menu header nav .nav_logo h3 span{
+   color: #F85A40;
+}
+
+.menu header nav .nav_links {
+    /* width: ; */
+    /* background-color: bisque; */
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 150px;
+}
+
+.menu header nav .nav_links a {
+    text-decoration: none;
+    color: rgb(234, 224, 224);
+    font-size: 15px;
+
+}
+
+.menu header nav .nav_links a:hover {
+    text-decoration: underline 2px #F85A40;
+    text-underline-offset: 5px;
+    color: white;
+}
+
+.menu .banniere{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 100px;
+}
+.menu .banniere .banniere_text{
+    /* background-color: rgb(70, 41, 199); */
+    /* grid-row: 1; */
+    /* grid-column: 1; */
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.menu .banniere .banniere_text h1{
+    color: white;
+}
+.menu .banniere .banniere_text p{
+    color: rgb(234, 224, 224);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.menu .banniere .banniere_text button{
+    height: 40px;
+    border-radius: 50px;
+    width: 200px;
+    border: none;
+    color: white;
+}
+.menu .banniere .banniere_text button:nth-child(3){
+    background-color: #008374;
+    box-shadow: 1px 1px 5px rgb(46, 46, 46);
+    border: 1px #8aa5a2 solid;
+}
+.menu .banniere .banniere_text button:nth-child(4){
+    background-color: transparent;
+}
+.menu .banniere .banniere_image{
+    /* background-color: rgb(99, 148, 35); */
+    /* grid-row: 1; */
+    /* grid-column: 2; */
+    padding-right: 150px;
+}
+.menu .banniere .banniere_image img{
+   width: 500px;
+   height: 300px;
+}
+
+.carreau{
+    /* background-color: red; */
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* gap: 10px; */
+    position: relative;
+    top: -100px;
+}
+
+/* les quatres carreaux de la banniere  */
+.carreau div{
+    background-color: #008374;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px rgba(45, 44, 44, 0.579);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.carreau div i{
+    font-size: 50px;
+    
+}
+.carreau div span{
+    font-weight: bold;
+    
+}
+
+/* fin section menu */
