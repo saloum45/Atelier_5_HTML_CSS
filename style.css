@@ -73,4 +73,49 @@ hr{
        font-size: 20px;
        color:  #008374 ;
    }
+
+   menu{
+    margin-left: 20%;
+    padding-right: 30%;
+   }
+
+   ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 10%;
+  
+   }
+   ul li span{
+    color: #008374;
+   }
+
+   .sectionportfolio{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+   }
+
+   .cardApp img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+   }
+   .cardApp{
+   background-color: white;
+   width: 400px;
+   border-radius: 20px;
+   }
+   .cardApp p{
+    font-size: 10px;
+   }
+   h3{
+    margin-left: 20px;
+   }
+   p{
+    margin-left: 20px;
+   }
    
+  
