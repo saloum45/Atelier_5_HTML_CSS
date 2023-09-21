@@ -163,34 +163,36 @@ footer {
 }
 
 
-footer .footer_icons{
+footer .footer_icons {
     width: 50%;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    
+
 }
-footer div p{
+
+footer div p {
     color: #8aa5a2;
     font-size: 14px;
     margin-top: 10px;
-    
+
 }
-footer .footer_icons i{
+
+footer .footer_icons i {
     border: 1px white solid;
     padding: 10px;
     border-radius: 50%;
-    
+
 }
 
-footer div span{
+footer div span {
     /* color: #8aa5a2;
     font-size: 14px;
     margin-top: 10px;
      */
 }
 
-footer .footer_links{
+footer .footer_links {
     display: flex;
     flex-direction: column;
     height: 150px;
@@ -198,27 +200,31 @@ footer .footer_links{
     /* background-color: green; */
     padding-top: 15px;
 }
-footer .footer_links a{
+
+footer .footer_links a {
     color: #8aa5a2;
     font-size: 15px;
     text-decoration: none;
 }
-footer .footer_links p{
-   padding-top: 20px;
-}
-footer .footer_links p span{
-   font-weight: bold;
-   color: white;
+
+footer .footer_links p {
+    padding-top: 20px;
 }
 
-footer .copy_right{
+footer .footer_links p span {
+    font-weight: bold;
+    color: white;
+}
+
+footer .copy_right {
     text-align: center;
     margin: 0 auto;
     /* background-color: red;     */
     grid-column: 1/span 4;
 }
-footer .copy_right p span{
-     color: white;
+
+footer .copy_right p span {
+    color: white;
 }
 
 /* fin section footer  */
@@ -226,7 +232,7 @@ footer .copy_right p span{
 
 /* debut section contact  */
 
-.contact{
+.contact {
     /* background-color: red; */
     width: 80%;
     height: auto;
@@ -234,26 +240,30 @@ footer .copy_right p span{
     grid-template-columns: 1fr 2fr;
     margin: 0 auto;
 }
-.contact_text{
+
+.contact_text {
     /* background-color: rgb(86, 112, 102); */
     grid-column: 1/span 2;
     text-align: center;
     height: 100px;
-    
+
 }
-.contact_text h3{
+
+.contact_text h3 {
 
     text-decoration: underline 3px #008374;
     text-underline-offset: 15px;
     margin-bottom: 20px;
-    
+
 }
-.contact_text p{
+
+.contact_text p {
     color: #8aa5a2;
     font-size: 14px;
-    
+
 }
-.contact_gauche{
+
+.contact_gauche {
     background-color: #008374;
     display: flex;
     flex-direction: column;
@@ -263,31 +273,94 @@ footer .copy_right p span{
     padding: 20Px;
     border-radius: 15px 0px 0px 15px;
 }
-.contact_gauche .child{
+
+.contact_gauche .child {
     background-color: #009282;
     width: 90%;
     border-radius: 10px;
     padding: 5px;
     margin: 0 auto;
     display: flex;
-    
+
 }
-.contact_gauche .child .child_icon{
+
+.contact_gauche .child .child_icon {
     width: 10%;
     padding: 5px;
 }
-.contact_gauche .child .child_icon i{
+
+.contact_gauche .child .child_text p {
+    /* font-size: 10px; */
+}
+
+.contact_gauche .child .child_icon i {
     background-color: #41beaf;
     padding: 5px;
     color: white;
     border-radius: 50%;
     margin-top: 10px;
 }
-.contact_droite{
-    background-color: rgb(81, 34, 176);
+
+.contact_droite {
+    /* background-color: rgb(81, 34, 176); */
     border-radius: 0px 15px 15px 0px;
+    padding: 10px 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1 1 2 3; */
+    gap: 10px;
+    box-sizing: border-box;
+    /* height: 300px; */
+    height: 290px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.533);
+}
+/* .contact_droite div:nth-child(1){
+    background-color: #F85A40;
     
 }
+.contact_droite div:nth-child(2){
+    background-color: #F85A40;
+    
+} */
+.contact_droite div:nth-child(3){
+    /* background-color: #F85A40; */
+    grid-column: 1/span 2;
+}
+.contact_droite div:nth-child(4){
+    /* background-color: #F85A40; */
+    grid-column: 1/span 2;
+    
+}
+.contact_droite div:nth-child(5){
+    /* background-color: #F85A40; */
+    grid-column: 1/span 2;
+    text-align: center;
+    
+}
+.contact_droite div:nth-child(5) button{
+    background-color: #008374;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    width: 150px;
+    
+}
+.contact_droite div input {
+    width: 100%;
+    height: 30px;
+}
+
+
+.contact_droite div textarea {
+    width: 100%;
+    height: 140px;
+}
+
 
 /* fin section contact  */
 
+
+
+/* debut section contact  */
