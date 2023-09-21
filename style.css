@@ -85,6 +85,7 @@
     width: 200px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .menu .banniere .banniere_text button:nth-child(3) {
@@ -424,12 +425,12 @@ footer .copy_right p span {
 }
 #lorem_check span{
     /* margin-top: px; */
-    
+    color: #8aa5a2;
 }
 #lorem_check span i{
     background-color: transparent;
     color: #008374;
-    
+    font-size: 15px;
 }
 .pricing div.nth_3{
     border-radius: 0px 10px 10px 0px;
