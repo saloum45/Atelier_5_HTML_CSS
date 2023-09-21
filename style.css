@@ -364,3 +364,118 @@ footer .copy_right p span {
 
 
 /* debut section contact  */
+
+.pricing{
+    
+    width: 70%;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 550px;
+    background-color: gray;
+}
+.pricing div{
+    
+    text-align: center;
+    width: 250px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+.pricing div:nth-child(1),.pricing div.nth_3{
+    background-color: rgb(255, 255, 255);
+    height: 85%;
+    margin-top: 4%;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.389);
+    padding-top: 50px;
+    
+}
+.pricing div:nth-child(2){
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px #008374 solid;
+    /* text-align: center; */
+    padding-top: 50px;
+}
+
+.pricing div i{
+    color: white;
+    background-color: #008374;
+    font-size: 30px;
+    margin-top: 20px;
+    /* border-radius: 10px; */
+    /* padding: 10px; */
+}
+
+#lorem_check{
+    /* margin-top: 20px; */
+    text-align: start;
+    margin-left: 20px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#lorem_check span{
+    /* margin-top: px; */
+    
+}
+#lorem_check span i{
+    background-color: transparent;
+    color: #008374;
+    
+}
+.pricing div.nth_3{
+    border-radius: 0px 10px 10px 0px;
+    /* padding-top: 50px; */
+}
+.pricing #div_button{
+    margin-top: 10px;
+}
+.pricing #div_button button{
+    border: 1px #008374 solid;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 50px;
+    color: #008374;
+    width: 100px;
+}
+.pricing div:nth-child(2) #div_button{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.pricing .prix{
+    font-size: 20px;
+    color: #F85A40;
+}
+.pricing .prix_mois{
+    font-size: 10px;
+    color: #8aa5a2;
+    /* padding-top: 40px; */
+}
+
+.pricing .prix_mois, .pricing .prix{
+   
+}
+/* .pricing div.nth_3 span:first-child{
+     background-color: red;
+} */
+/* .pricing div prix span{
+    background-color: black;
+    margin-top: 50px;
+} */
+/* .pricing div span{
+  background-color: #008374;
+} */
+
+
+
+.pricing_text{
+    background-color: red;
+}
