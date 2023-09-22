@@ -89,7 +89,9 @@
     </div>
   </div> -->
   <!-- fin section menu  -->
-
+  <div class="icon_retour">
+    <a href="#retour" class="retour"><i class="bi bi-arrow-bar-up"></i></a>
+  </div>
 
   <!-- debut section content -->
 
@@ -299,10 +301,23 @@
       <p>© Copyright <span>Impact</span> All Right Reserved <br>
         Designed by BootstrapMade
       </p>
-      <a href="#retour" class="retour"><i class="bi bi-arrow-bar-up"></i></a>
+      <!-- <a href="#retour" class="retour"><i class="bi bi-arrow-bar-up"></i></a> -->
     </div>
   </footer>
   <!-- fin section footer  -->
 </body>
-
+<script>
+  var icon_retour=document.querySelector('.icon_retour');
+  // icon_retour.addEventListener('click',()=>{
+  //     alert('hello')
+  // })
+  window.addEventListener('scroll',()=>{
+      if(window.scrollY>=500){
+          icon_retour.classList.add('icon_retour_okay')
+      }else{
+          
+          icon_retour.classList.remove('icon_retour_okay')
+      }
+  })
+</script>
 </html>

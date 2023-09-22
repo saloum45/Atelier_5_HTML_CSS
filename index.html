@@ -12,6 +12,7 @@
 </head>
 
 <body>
+   
     <!-- debut section menu  -->
     <span id="retour"></span>
     <header>
@@ -84,6 +85,9 @@
         </div>
     </div>
     <!-- fin section menu  -->
+    <div class="icon_retour">
+        <a href="#retour" class="retour"><i class="bi bi-arrow-bar-up"></i></a>
+    </div>
     <div class="scrollable">
 
 
@@ -168,6 +172,7 @@
 
 
         <!-- debut section pricing  -->
+        <!-- <h1>Pricing</h1> -->
         <div class="pricing">
             <div>
                 <span>Free plan</span> <br>
@@ -527,7 +532,7 @@
             <p>© Copyright <span>Impact</span> All Right Reserved <br>
                 Designed by BootstrapMade
             </p>
-            <a href="#retour" class="retour"><i class="bi bi-arrow-bar-up"></i></a>
+            <!-- <a href="#retour" class="retour"><i class="bi bi-arrow-bar-up"></i></a> -->
         </div>
     </footer>
     <!-- fin section footer  -->
@@ -540,14 +545,18 @@
 </body>
 
 <script>
-    // document.querySelector('.smooth_scroll').scrollIntoView({
-    //     behavior: 'smooth'
-    // });
-
-    // window.scroll({
-    //     top: 2500,
-    //     behavior: 'smooth'
-    // });
+    var icon_retour=document.querySelector('.icon_retour');
+    // icon_retour.addEventListener('click',()=>{
+    //     alert('hello')
+    // })
+    window.addEventListener('scroll',()=>{
+        if(window.scrollY>=500){
+            icon_retour.classList.add('icon_retour_okay')
+        }else{
+            
+            icon_retour.classList.remove('icon_retour_okay')
+        }
+    })
 </script>
 
 </html>

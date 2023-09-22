@@ -641,6 +641,11 @@ menu {
     margin-left: 20%;
     padding-right: 30%;
 }
+menu ul{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
 
 ul {
     display: flex;
@@ -942,7 +947,7 @@ menu ul li:hover{
 
 
 
-/* css reponsive  */
+/* css responsive  */
 
 
 @media screen and (max-width:768px) {
@@ -1120,7 +1125,23 @@ menu ul li:hover{
 }
 
 
-/* smooth behavior  */
+/* icon retour */
+
+.icon_retour{
+    position: fixed;
+   /* top: 20px; */
+   bottom: 0px;
+   right: 0px;
+   float: left;
+   /* display: none; */
+   opacity: 0;
+   transition: opacity 2s ease-in-out;
+}
+.icon_retour_okay{
+    opacity: 1;
+    /* display: inline-block; */
+}
+
 
 
 
