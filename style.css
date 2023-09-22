@@ -665,6 +665,27 @@ ul li span {
     margin: 0 auto;
     margin-top: 20px;
 }
+.sectionportfolio div:hover{
+    transform: rotate(1deg);
+    /* transition: transform 1.5s ease-in-out; */
+}
+.sectionportfolio div{
+    /* transform: rotate(1deg); */
+    transition: transform 1s ease-in-out;
+}
+menu ul li:hover{
+    color: #008374;
+    cursor: pointer;
+}
+
+
+.sectionservices div:hover{
+    transform: rotate(1deg);
+}
+.sectionservices div{
+    transition: transform 1s ease-in-out;
+    
+}
 
 .cardApp img {
     width: 100%;
@@ -1072,6 +1093,7 @@ ul li span {
     .sectionportfolio div {
         width: 90%;
         margin: 0 auto;
+
     }
 
     .Apropos {
