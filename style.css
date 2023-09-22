@@ -12,7 +12,7 @@ html {
     /* scroll-behavior: auto; */
 }
 
-.scrollable{
+.scrollable {
     scroll-behavior: smooth;
     /* scroll-behavior: auto; */
     /* transition: ; */
@@ -215,8 +215,9 @@ footer .footer_icons {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-
+    cursor: pointer;
 }
+
 
 footer div p {
     color: #8aa5a2;
@@ -230,6 +231,12 @@ footer .footer_icons i {
     padding: 10px;
     border-radius: 50%;
 
+    transition: transform 1s ease-in;
+}
+
+footer .footer_icons i:hover {
+    transform: rotate(180deg);
+    color: #F85A40;
 }
 
 footer div span {
@@ -252,6 +259,9 @@ footer .footer_links a {
     color: #8aa5a2;
     font-size: 15px;
     text-decoration: none;
+}
+footer .footer_links a:hover {
+    color: #F85A40;
 }
 
 footer .footer_links p {
@@ -386,7 +396,6 @@ footer .copy_right p span {
     /* background-color: #F85A40; */
     grid-column: 1/span 2;
     text-align: center;
-
 }
 
 .contact_droite div:nth-child(5) button {
@@ -641,7 +650,8 @@ menu {
     margin-left: 20%;
     padding-right: 30%;
 }
-menu ul{
+
+menu ul {
     width: 60%;
     margin: 0 auto;
     margin-top: 10%;
@@ -670,26 +680,30 @@ ul li span {
     margin: 0 auto;
     margin-top: 20px;
 }
-.sectionportfolio div:hover{
-    transform: rotate(1deg);
+
+.sectionportfolio div:hover {
+    transform: rotateY(20deg);
     /* transition: transform 1.5s ease-in-out; */
 }
-.sectionportfolio div{
+
+.sectionportfolio div {
     /* transform: rotate(1deg); */
     transition: transform 1s ease-in-out;
 }
-menu ul li:hover{
+
+menu ul li:hover {
     color: #008374;
     cursor: pointer;
 }
 
 
-.sectionservices div:hover{
+.sectionservices div:hover {
     transform: rotate(1deg);
 }
-.sectionservices div{
+
+.sectionservices div {
     transition: transform 1s ease-in-out;
-    
+
 }
 
 .cardApp img {
@@ -851,6 +865,7 @@ menu ul li:hover{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.491);
     transition: transform 1s ease-in;
 }
+
 .content .card:hover {
     transform: rotate(1deg);
 }
@@ -960,6 +975,7 @@ menu ul li:hover{
         width: 100%;
         color: white;
     }
+
     /* #select_nav a{
         color: #009282;
     } */
@@ -1136,23 +1152,18 @@ menu ul li:hover{
 
 /* icon retour */
 
-.icon_retour{
+.icon_retour {
     position: fixed;
-   /* top: 20px; */
-   bottom: 0px;
-   right: 0px;
-   float: left;
-   /* display: none; */
-   opacity: 0;
-   transition: opacity 2s ease-in-out;
+    /* top: 20px; */
+    bottom: 0px;
+    right: 0px;
+    float: left;
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
 }
-.icon_retour_okay{
+
+.icon_retour_okay {
     opacity: 1;
     /* display: inline-block; */
 }
-
-
-
-
-
-
