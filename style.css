@@ -955,9 +955,18 @@ menu ul li:hover{
 
     #select_nav {
         display: inline-block;
-        background-color: #F85A40;
+        background-color: #2ebead;
         border: none;
+        width: 100%;
+        color: white;
     }
+    /* #select_nav a{
+        color: #009282;
+    } */
+    /* option{
+        color: white;
+        background-color: #F85A40;
+    } */
 
     header {
         display: none;
