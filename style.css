@@ -844,6 +844,10 @@ menu ul li:hover{
     background-color: rgb(227, 230, 227);
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.491);
+    transition: transform 1s ease-in;
+}
+.content .card:hover {
+    transform: rotate(1deg);
 }
 
 .content .card .card_image {
@@ -1117,4 +1121,8 @@ menu ul li:hover{
 
 
 /* smooth behavior  */
+
+
+
+
 
