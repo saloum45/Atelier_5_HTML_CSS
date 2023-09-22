@@ -4,6 +4,25 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    /* scroll-snap-type: y mandatory;
+    scroll-padding-top: 70px;
+    transition: scroll-snap-align 3s ease-in-out; */
+    /* scroll-behavior: auto; */
+}
+
+.scrollable{
+    scroll-behavior: smooth;
+    /* scroll-behavior: auto; */
+    /* transition: ; */
+}
+
+/* @media (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+} */
 /* html{
 } */
 body {
@@ -1077,9 +1096,3 @@ ul li span {
 
 /* smooth behavior  */
 
-html {
-    scroll-behavior: smooth;
-    /* scroll-snap-type: y mandatory;
-    scroll-padding-top: 70px;
-    transition: scroll-snap-align 3s ease-in-out; */
-}
